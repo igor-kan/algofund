@@ -1,7 +1,9 @@
 # Algofund - Management Platform
 
 ## Project Overview
-A web application for algorithmic trading and investment fund management.
+**Live Application**: https://igor-kan.github.io/algofund/
+
+AlgoFund is a sophisticated AI-powered algorithmic trading and fund management platform that revolutionizes investment strategies through advanced machine learning models, quantitative analysis, and automated trading systems. Built with cutting-edge financial algorithms and real-time market analysis capabilities, AlgoFund provides institutional-grade trading intelligence, portfolio optimization, risk management, and performance analytics for both individual and institutional investors.
 
 ## Technology Stack
 - **Framework**: Vite
@@ -90,10 +92,99 @@ algofund/
 - TypeScript for type safety
 - ESLint for code quality
 
+## Algorithmic Trading Features
+- **Strategy Development**: Visual algorithm builder with backtesting capabilities
+- **Risk Management**: Real-time portfolio risk assessment and position sizing
+- **Market Data Integration**: Live data feeds from multiple exchanges and markets
+- **Performance Analytics**: Comprehensive trading performance metrics and attribution
+- **Automated Execution**: High-frequency trading with latency optimization
+
+## Investment Fund Management
+- **Portfolio Construction**: Multi-asset portfolio optimization and rebalancing
+- **Investor Relations**: Client reporting, statements, and communication tools
+- **Compliance Monitoring**: Regulatory compliance tracking and reporting
+- **Fee Calculation**: Automated management and performance fee calculations
+- **Redemption Management**: Investor subscription and redemption processing
+
+## Financial Analytics & Visualization
+- **Real-time Dashboards**: Live portfolio performance and market data displays
+- **Risk Metrics**: VaR, Sharpe ratio, maximum drawdown, and correlation analysis
+- **Attribution Analysis**: Performance breakdown by strategy, sector, and security
+- **Scenario Testing**: Stress testing and Monte Carlo simulations
+- **Benchmark Comparison**: Performance analysis against market indices
+
+## Trading Infrastructure
+- **Order Management**: Advanced order routing and execution management
+- **Market Connectivity**: Direct market access and prime brokerage integration
+- **Data Management**: Historical data storage and real-time feed processing
+- **Latency Optimization**: High-performance computing for algorithmic strategies
+- **Backup Systems**: Redundant systems for operational continuity
+
+## Regulatory Compliance
+- **SEC Reporting**: Automated regulatory filing and compliance monitoring
+- **Audit Trails**: Comprehensive transaction and decision logging
+- **Risk Controls**: Pre-trade risk checks and position limits
+- **KYC/AML**: Know Your Customer and Anti-Money Laundering procedures
+- **GDPR Compliance**: Data privacy and protection standards
+
 ## Future Enhancements
-- Performance optimizations
-- Advanced analytics integration
-- Enhanced user experience features
-- API integrations
-- Mobile app development
+- **Machine Learning Models**: AI-powered trading strategies and market prediction
+- **Alternative Data**: Integration of satellite, social media, and economic indicators
+- **Cryptocurrency Trading**: Digital asset algorithmic trading capabilities
+- **ESG Integration**: Environmental, Social, and Governance investment criteria
+- **Robo-Advisory**: Automated investment advice for retail clients
+- **Cross-Asset Trading**: Multi-asset class algorithmic strategies
+
+
+
+## 🧭 Claude Code Navigation
+
+### Quick Commands
+**Development Scripts:**
+- `dev`: vite
+- `build`: vite build
+- `lint`: eslint .
+- `deploy`: gh-pages -d dist
+
+**Key Files:**
+- `package.json` - Dependencies and scripts configuration
+- `README.md` - Project documentation and setup guide
+- `CLAUDE.md` - Comprehensive development guide for Claude
+- `vite.config.ts` - Vite build tool configuration
+- `tailwind.config.ts` - Tailwind CSS styling configuration
+- `tsconfig.json` - TypeScript compiler configuration
+- `components.json` - shadcn/ui components configuration
+
+**Key Directories:**
+- `src/` - Source code and main application logic
+- `public/` - Static assets (images, icons, etc.)
+
+**Claude Code Files:**
+- `.claude/project-context.md` - Project overview and structure
+- `.claude/coding-standards.md` - Development guidelines and patterns
+- `.claude/commands/` - Custom Claude commands for common tasks
+- `.claude/context/` - Domain-specific development context
+
+
+### Quick Reference
+
+**Common Tasks:**
+- Start development: `npm run dev` or `bun dev`
+- Build project: `npm run build` or `bun build`
+- Lint code: `npm run lint` or `bun lint`
+- Deploy: `npm run deploy` or `bun deploy`
+
+**File Patterns:**
+- Components: `components/**/*.tsx`
+- Pages: `app/**/*.tsx` or `pages/**/*.tsx`
+- Utilities: `lib/**/*.ts`
+- Styles: `**/*.css` or use Tailwind classes
+- Tests: `**/*.test.ts` or `**/*.spec.ts`
+
+**Development Tips:**
+- Use TypeScript for type safety
+- Follow existing component patterns
+- Utilize shadcn/ui components
+- Implement responsive design with Tailwind
+- Test changes before committing
 
